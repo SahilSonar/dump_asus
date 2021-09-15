@@ -1,0 +1,19 @@
+
+on init
+
+on fs
+
+on post-fs
+
+on post-fs-data
+
+###+++++++++ CSC Audio calibration server ++++###
+
+on property:sys.asus.audiocalibration=1
+    setprop vendor.asus.vendor_audiocalibration 1
+
+on property:sys.asus.audiocalibration=0
+    setprop vendor.asus.vendor_audiocalibration 0
+
+###--------- CSC Audio calibration server ----###
+
